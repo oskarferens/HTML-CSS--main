@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    max-width: 1024px;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    width: 1024px;
+    float:left;
+}
+
+header {
+    padding: 10px 15px;
+}
+
+form {
+    padding: 10px 15px 30px 10px;
+}
+
+nav h1 {
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    float: left;
+}
+
+section {
+    background-color: #ffde48;
+    width: 75%;
+    float:left;
+}
+
+content {
+    background-color: #e4e7ba;
+    width: 100%;
+    float:left;
+}
+
+aside {
+    background-color: #9edcc2;
+    width: 25%;
+    float:right;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0px 15px;
+}
+
+aside h3 {
+    text-align : center;
+    padding: 0px 15px;
+}
+
+aside ol li:nth-child(odd) {
+    color:#000000
+}
+
+aside ol li:nth-child(even) {
+    color:rgb(0, 0, 0)
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffa023;
+    padding: 0 15px;
+}
+
+article {
+    padding: 10px 15px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: flex;
+    background-color: #838662;
+    padding: 10px 50px;
+    margin: 0 5px;
+}
+
+.login {
+    margin-left: auto;
+    background-color: #838662;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
+footer{
+    clear: both;
+    text-align : center;
+    margin-top: 0 px;
+    background-color: blueviolet;
+    height: 25px;
+}
+
+a {
+    color: rgb(37, 37, 31);
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(17, 0, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(37, 37, 31);
+  }
+
+  input[type=button], input[type=submit] {
+    background-color: #04aa20;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  input[type=reset] {
+    background-color: #d60000;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  input[type=text], input[type=password]{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 8px 12px;
+  }
